@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row , Nav} from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import s from "./Header.module.scss";
 import logo from "./../../img/logo.png";
@@ -9,10 +9,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 library.add(faFacebook, faInstagram);
 
-function Header() {
+function HeaderS() {
   return (
    
-    <div className={s.header}>
+    <Nav className={s.header}>
       <Container>
         <Row>
           <Col md="2">
@@ -20,6 +20,7 @@ function Header() {
               <img src={logo} alt="logo" />
             </div>
           </Col>
+
           <Col md="8">
             <ul className={s.headerCenter}>
               <li>HOME</li>
@@ -43,8 +44,8 @@ function Header() {
           </Col>
         </Row>
       </Container>
-      </div>
+      </Nav>
   );
 }
 
-export default Header;
+export default HeaderS;

@@ -8,6 +8,7 @@ import Home from "./companent/Home/Home";
 function App() {
   return (
     <BrowserRouter >
+    <div className="App">
       <Header />
       <Home/>
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Product" element={<Product />} />
       </Routes>
       <Footer />
+    </div>
     </BrowserRouter>
   );
 }

@@ -1,8 +1,9 @@
-import React from "react";
-import s from "./Product";
+import React from 'react'
 
 function Product() {
-  return <div>Product</div>;
+  return (
+    <div>Product</div>
+  )
 }
 
-export default Product;
+export default Product

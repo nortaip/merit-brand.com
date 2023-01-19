@@ -1,0 +1,12 @@
+.Products {
+  text-align: center;
+  margin-top: 50px;
+  color : #fff;
+  .ProductCardImg {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

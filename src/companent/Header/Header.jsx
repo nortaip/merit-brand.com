@@ -28,7 +28,7 @@ function HeaderS() {
               </li>
               <li> ABOUT US</li>
               <li>
-                <Link to={`product`}>PRODUCT</Link>
+                <Link to={`products`}>PRODUCTS</Link>
               </li>
               <li>
                 <Link to={`contact`}> CONTACT</Link>

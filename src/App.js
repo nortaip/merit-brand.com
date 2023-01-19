@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Header from "./companent/Header/Header";
-import Product from "./companent/Product/Product";
+
+import Products from "./companent/Products/Products";
 import Footer from "./companent/Footer/Footer";
 import Home from "./companent/Home/Home";
 import ContactUs from "./companent/Contact-Us/ContactUs";
@@ -15,7 +16,7 @@ function App() {
 
       <Routes>
         <Route path="/Home" element={<Home />} />
-        <Route path="/Product" element={<Product />} />
+        <Route path="/Products" element={<Products />} />
         <Route path="/Contact" element={<ContactUs />} />
       </Routes>
       <Footer />

@@ -1,0 +1,15 @@
+.Product {
+  margin: 55px 0;
+
+  .ProductDetailsImg {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .ProductDetailsInfo {
+    color: white;
+  }
+}

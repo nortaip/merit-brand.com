@@ -3,13 +3,9 @@ import img from '../img/1.jpg';
 import img1 from '../img/image3.png';
 
 
-
-
-
-
 const products = [
   {
-    id: 1,
+    id: 123456789,
     name: "Product 1",
     price: 100,
     description: "Product 1 description",
@@ -19,7 +15,7 @@ const products = [
     barcode: "123456789",
   },
   {
-    id: 2,
+    id: 123456789,
     name: "Product 2",
     price: 200,
     description: "Product 2 description",
@@ -29,7 +25,7 @@ const products = [
     barcode: "123456789",
   },
   {
-    id: 3,
+    id: 123456789,
     name: "Product 3",
     price: 300,
     description: "Product 3 description",
@@ -39,7 +35,7 @@ const products = [
     barcode: "123456789",
   },
   {
-    id: 4,
+    id: 123456789,
     name: "Product 4",
     price: 400,
     description: "Product 4 description",
@@ -49,7 +45,7 @@ const products = [
     barcode: "123456789",
   },
   {
-    id: 5,
+    id: 123456789,
     name: "Product 5",
     price: 500,
     description: "Product 5 description",
@@ -59,7 +55,7 @@ const products = [
     barcode: "123456789",
   },
   {
-    id: 6,
+    id: 123456789,
     name: "Product 6",
     price: 600,
     description: "Product 6 description",
@@ -69,7 +65,7 @@ const products = [
     barcode: "123456789",
   },
   {
-    id: 7,
+    id: 123456789,
     name: "Product 7",
     price: 700,
 
@@ -80,7 +76,7 @@ const products = [
     barcode: "123456789",
   },
   {
-    id: 8,
+    id: 123456789,
     name: "Product 8",
     price: 800,
     description: "Product 8 description",

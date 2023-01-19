@@ -6,6 +6,7 @@ import { Col } from "react-bootstrap";
 import s from "./ContactUs.module.scss";
 import img from "./../../img/34.png";
 import img1 from "./../../img/345.png";
+import ContactFooter from "./ContactFooter/ContactFooter";
 
 function ContactUs() {
   return (
@@ -51,7 +52,11 @@ function ContactUs() {
           </Col>
         </Row>
       </Container>
+      <ContactFooter/>
     </div>
+   
+    
+
   );
 }
 

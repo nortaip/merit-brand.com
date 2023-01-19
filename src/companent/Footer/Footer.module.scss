@@ -1,4 +1,14 @@
 .Footer {
-  color: white;
+  background-color: #131313;
+  color: #fff;
+  padding: 40px 0;
 
+  text-align: center;
+
+  .brandText {
+    color: #bea741 !important;
+  }
+  h1{
+    padding: 20px 0;
+  }
 }

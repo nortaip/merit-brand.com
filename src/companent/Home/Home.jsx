@@ -2,7 +2,8 @@ import React from "react";
 import Main from "./Main/Main";
 import SectionTop from "./SectionTop/SectionTop";
 import SectionMain from "./SectionMain/SectionMain";
-import SectionBottom from "./SectionBottom/SectionBottom";
+import ContactFooter from "./../Contact-Us/ContactFooter/ContactFooter";
+
 
 function Home() {
   return (
@@ -10,7 +11,8 @@ function Home() {
       <Main />
       <SectionTop />
       <SectionMain />
-      <SectionBottom />
+      <ContactFooter/>
+
     </>
   );
 }

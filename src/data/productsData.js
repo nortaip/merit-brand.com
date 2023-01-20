@@ -85,6 +85,32 @@ const products = [
     category: "Mirvari",
     barcode: "123456789",
   },
+  {
+    id: 123456789,
+    name: "Product 9",
+    price: 900,
+    description: "Product 9 description",
+    image: img,
+    brand: "Agsu",
+    category: "Mirvari",
+    barcode: "123456789",
+  },
+  {
+    id: 123456789,
+    name: "Product 10",
+    price: 1000,
+    description: "Product 10 description",
+    image: img1,
+    brand: "Agsu",
+    category: "Mirvari",
+
+    barcode: "123456789",
+  },
+
+    
+
+
+
 ];
 
 export default products;

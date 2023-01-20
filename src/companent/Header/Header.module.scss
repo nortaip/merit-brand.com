@@ -3,10 +3,23 @@
   position: fixed;
   width: 100%;
   top: 0;
+  .active {
+    color: gold;
+    text-decoration: none;
+  }
+
+  .item {
+    color: white;
+    text-decoration: none;
+    &:hover {
+    color: gold;
+      transition: all 0.3s ease-in-out;
+    }
+  }
 }
 
 .headerCenter {
-    cursor: default;
+  cursor: default;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +37,8 @@
 }
 
 .headerRight {
-    cursor: default;
-    margin: 1rem 0;
+  cursor: default;
+  margin: 1rem 0;
   color: white;
   display: flex;
   justify-content: flex-end;

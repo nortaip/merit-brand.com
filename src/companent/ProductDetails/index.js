@@ -14,7 +14,7 @@ export default function ProductDetails() {
       <Row>
         <Col md={6}>
           <div className={s.ProductDetailsImg}>
-            <img src={image} className="" alt="1234567890" />
+            <img src={image} alt="1234567890" />
           </div>
         </Col>
         <Col md={6}>

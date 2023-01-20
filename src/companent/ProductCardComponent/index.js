@@ -10,7 +10,7 @@ function ProductCardComponent({ img, title, price, data, id }) {
     <Col md={4}>
       <div
         className={s.ProductCard}
-        onClick={() => navigate(`/ProductDetails  ` , { state: { ...data } })}
+        onClick={() => navigate(`/ProductDetails` , { state: { ...data } })}
       >
         <div className={s.ProductCardImg}>
           <img src={img} alt="123456789" />

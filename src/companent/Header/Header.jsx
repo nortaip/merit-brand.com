@@ -7,7 +7,7 @@ import logo from "./../../img/logo.png";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 library.add(faFacebook, faInstagram);
 
 function HeaderS() {
@@ -24,14 +24,36 @@ function HeaderS() {
           <Col md="8">
             <ul className={s.headerCenter}>
               <li>
-                <Link to={`home`}>HOME</Link>
+                <NavLink
+                  to={`home`}
+                  className={(navData) =>
+                    navData.isActive ? s.active : s.item
+                  }
+                >
+                  HOME
+                </NavLink>
               </li>
               <li> ABOUT US</li>
               <li>
-                <Link to={`products`}>PRODUCTS</Link>
+                <NavLink
+                  to={`products`}
+                  className={(navData) =>
+                    navData.isActive ? s.active : s.item
+                  }
+                >
+                  PRODUCTS
+                </NavLink>
               </li>
               <li>
-                <Link to={`contact`}> CONTACT</Link>
+                <NavLink
+                  to={`contact`}
+                  className={(navData) =>
+                    navData.isActive ? s.active : s.item
+                  }
+                >
+                  {" "}
+                  CONTACT
+                </NavLink>
               </li>
             </ul>
           </Col>

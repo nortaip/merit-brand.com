@@ -7,7 +7,7 @@ function ProductCardComponent({ img, title, price, data, id }) {
   const navigate = useNavigate();
 
   return (
-    <Col md={4}>
+    <Col md={3}>
       <div
         className={s.ProductCard}
         onClick={() => navigate(`/ProductDetails` , { state: { ...data } })}

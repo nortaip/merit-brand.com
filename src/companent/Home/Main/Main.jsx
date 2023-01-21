@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Main.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img from "./../../../img/Image.png";
+import img from "./../../../img/slider1.png";
 
 function Main() {
   return (

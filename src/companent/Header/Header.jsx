@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Nav } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import s from "./Header.module.scss";
-import logo from "./../../img/logo.png";
+import logo from "./../../img/header-logo.png";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -16,7 +16,7 @@ function HeaderS() {
       <Container>
         <Row>
           <Col md="2">
-            <div className="header-logo ">
+            <div className={s.headerLogo}>
               <img src={logo} alt="logo" />
             </div>
           </Col>
@@ -33,8 +33,7 @@ function HeaderS() {
                   HOME
                 </NavLink>
               </li>
-              <li> ABOUT US</li>
-              <li>
+                   <li>
                 <NavLink
                   to={`products`}
                   className={(navData) =>
@@ -44,6 +43,7 @@ function HeaderS() {
                   PRODUCTS
                 </NavLink>
               </li>
+ 
               <li>
                 <NavLink
                   to={`contact`}
@@ -52,9 +52,11 @@ function HeaderS() {
                   }
                 >
                   {" "}
-                  CONTACT
+                  ABOUT US
                 </NavLink>
               </li>
+         
+                     <li>CONTACT </li>
             </ul>
           </Col>
           <Col md="2">

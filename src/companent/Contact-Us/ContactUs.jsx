@@ -7,10 +7,12 @@ import s from "./ContactUs.module.scss";
 import img from "./../../img/34.png";
 import img1 from "./../../img/345.png";
 import ContactFooter from "./ContactFooter/ContactFooter";
+import headerimg from "./../../img/ggg.png";
 
 function ContactUs() {
   return (
     <div className={s.ContactUs}>
+       <div><img src={headerimg} alt="aa"  className="img-fluid mb-5"/></div>
       <Container>
         <Row className="d-flex justify-content-center mt-5">
           <Col md="4" className="p-0">

@@ -12,7 +12,9 @@ import headerimg from "./../../img/ggg.png";
 function ContactUs() {
   return (
     <div className={s.ContactUs}>
-       <div><img src={headerimg} alt="aa"  className="img-fluid mb-5"/></div>
+      <div className={s.contactusnone}>
+        <img src={headerimg} alt="aa" className="img-fluid mb-5" />
+      </div>
       <Container>
         <Row className="d-flex justify-content-center mt-5">
           <Col md="4" className="p-0">
@@ -54,11 +56,8 @@ function ContactUs() {
           </Col>
         </Row>
       </Container>
-      <ContactFooter/>
+      <ContactFooter />
     </div>
-   
-    
-
   );
 }
 

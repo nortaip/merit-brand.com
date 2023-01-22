@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .navbar__logo {
+      img {
+        width: 69px;
+        height: 53px;
+      }
+    }
+    
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.Offcanvas_body{
+  background-color: #010101!important;
+}
+.Offcanvas_header{
+  background-color: #010101!important;
+}

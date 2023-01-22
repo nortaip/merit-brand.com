@@ -8,14 +8,19 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { NavLink } from "react-router-dom";
+
+
 library.add(faFacebook, faInstagram);
 
 function HeaderS() {
   return (
+    
     <Nav className={s.header}>
       <Container>
-        <Row>
-          <Col md="2">
+
+        
+        <Row className="p-0 m-0">
+          <Col md="2" className="p-0">
             <div className={s.headerLogo}>
               <img src={logo} alt="logo" />
             </div>
@@ -33,7 +38,7 @@ function HeaderS() {
                   HOME
                 </NavLink>
               </li>
-                   <li>
+              <li>
                 <NavLink
                   to={`products`}
                   className={(navData) =>
@@ -43,7 +48,7 @@ function HeaderS() {
                   PRODUCTS
                 </NavLink>
               </li>
- 
+
               <li>
                 <NavLink
                   to={`contact`}
@@ -55,8 +60,8 @@ function HeaderS() {
                   ABOUT US
                 </NavLink>
               </li>
-         
-                     <li>CONTACT </li>
+
+              <li>CONTACT </li>
             </ul>
           </Col>
           <Col md="2">
@@ -64,10 +69,15 @@ function HeaderS() {
               <ul>
                 <li>EN</li>
                 <li>
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <a  href="https://www.instagram.com/meritbrand2007/">
+                    {" "}
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
                 </li>
                 <li>
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <a href="https://www.facebook.com/meritbrand1/">
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
                 </li>
               </ul>
             </div>

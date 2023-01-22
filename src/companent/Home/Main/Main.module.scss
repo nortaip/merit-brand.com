@@ -8,7 +8,16 @@
   --bs-gutter-x: 0 !important;
   --bs-gutter-y: 0;
 }
+.row {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0;
+}
 
 .main {
   margin-top: 55px;
+}
+@media screen and (max-width: 767px) {
+  .main {
+    margin-top: 0;
+  }
 }

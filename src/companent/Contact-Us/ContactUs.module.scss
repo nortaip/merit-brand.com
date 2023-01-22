@@ -16,3 +16,11 @@
   text-align: center;
   padding: 10%;
 }
+@media screen and (max-width: 767px) {
+  .ContactUs {
+    margin-top: 0;
+  }
+  .contactusnone{
+    display: none;
+  }
+}

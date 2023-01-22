@@ -7,7 +7,7 @@ function ProductCardComponent({ img, title, price, data, id }) {
   const navigate = useNavigate();
 
   return (
-    <Col md={3}>
+    <Col md={3} className={s.colpadding}>
       <div
         className={s.ProductCard}
         onClick={() => navigate(`/ProductDetails` , { state: { ...data } })}
@@ -17,6 +17,10 @@ function ProductCardComponent({ img, title, price, data, id }) {
         </div>
         <div className={s.ProductCardTitle}>{title}</div>
         <div className={s.ProductCardPrice}>$ {price}</div>
+        
+        
+
+
       </div>
     </Col>
   );

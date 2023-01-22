@@ -10,26 +10,29 @@ export default function ProductDetails() {
 
   return (
     <div className={s.Product}>
-    <Container>
-      <Row>
-        <Col md={6}>
-          <div className={s.ProductDetailsImg}>
-            <img src={image} alt="1234567890" />
-          </div>
-        </Col>
-        <Col md={6}>
+      <Container>
+        <Row>
+          <Col md={6}>
+            <div className={s.ProductDetailsImg}>
+
+              <img src={image} alt="1234567890" />
+            </div>
+          </Col>
+          <Col md={6}>
             <div className={s.ProductDetailsInfo}>
-          <div className={s.ProductDetailsTitle}>{id}</div>
-          <div className={s.ProductDetailsTitle}>{name}</div>
-          <div className={s.ProductDetailsPrice}>$ {price}</div>
-          <div className={s.ProductDetailsDescription}>{description}</div>
-          <div className={s.ProductDetailsBarcode}>Barcode: {barcode}</div>
-          <div className={s.ProductDetailsBrand}>Brand: {brand}</div>
-          <div className={s.ProductDetailsCategory}>Category: {category}</div>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+              <div className={s.ProductDetailsTitle}>{id}</div>
+              <div className={s.ProductDetailsTitle}>{name}</div>
+              <div className={s.ProductDetailsPrice}>$ {price}</div>
+              <div className={s.ProductDetailsDescription}>{description}</div>
+              <div className={s.ProductDetailsBarcode}>Barcode: {barcode}</div>
+              <div className={s.ProductDetailsBrand}>Brand: {brand}</div>
+              <div className={s.ProductDetailsCategory}>
+                Category: {category}
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

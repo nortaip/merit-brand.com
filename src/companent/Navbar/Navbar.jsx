@@ -5,6 +5,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Offcanvas, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -18,14 +19,25 @@ const Navbar = () => {
         <div className={s.navbar__logo}>
           <img src={img} alt="logo" />
         </div>
-        <Button 
-         onClick={handleShow}>
-          <FontAwesomeIcon icon="fa-solid fa-bars" />
-        </Button>
 
-        <Offcanvas show={show} onHide={handleClose} backdrop="static">
+        <div className={s.button_offanvas}>
+          <Button
+            className={s.button_offcanvas}
+            variant="warning"
+            onClick={handleShow}
+          ></Button>
+        </div>
+
+        <Offcanvas
+          className={s.offcanvas}
+          show={show}
+          onHide={handleClose}
+          backdrop="static"
+        >
           <Offcanvas.Header closeButton className={s.Offcanvas_header}>
-            <Offcanvas.Title>Merit-Brand</Offcanvas.Title>
+            <Offcanvas.Title className={s.offcanvas_title}>
+              Merit-Brand
+            </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body className={s.Offcanvas_body}>
             <ul
@@ -60,8 +72,20 @@ const Navbar = () => {
                   }}
                   to="/contact"
                 >
-                  About
+                  About us
                 </Link>
+              </li>
+              <li>
+                <span className={s.icongap}>
+                  <a href="https://www.instagram.com/meritbrand2007/">
+                    {" "}
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+
+                  <a href="https://www.facebook.com/meritbrand1/">
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
+                </span>
               </li>
             </ul>
           </Offcanvas.Body>

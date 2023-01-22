@@ -18,7 +18,8 @@ function SectionMain() {
           </Col>
           <Col md={6}>
             <div className={s.sectionMain}>
-              <h1 className={s.sectionMain__title}>The Reds</h1>
+            <p className={s.brandtext}>Merid-Brand</p>
+              <h1 className={s.sectionMain__title}>The Lido</h1>
 
               <p className={s.sectionMain__text}>
                 Made from grape Cabernet Sauvignon & Merlot which is cultivated
@@ -32,7 +33,8 @@ function SectionMain() {
         <Row>
           <Col md={6}>
             <div className={s.sectionMain}>
-              <h1 className={s.sectionMain__title}>The Reds</h1>
+            <p className={s.brandtext}>Merid-Brand</p>
+              <h1 className={s.sectionMain__title}>The Sabran</h1>
 
               <p className={s.sectionMain__text}>
                 The company Merit Brand LTD is engaged in the production of red,

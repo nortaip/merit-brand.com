@@ -16,7 +16,30 @@ function ContactUs() {
         <img src={headerimg} alt="aa" className="img-fluid mb-5" />
       </div>
       <Container>
-        <Row className="d-flex justify-content-center mt-5">
+        <Row>
+          <Col md="8" className="p-0 m-auto">
+            <div className={s.ContactUsHeader}>
+              <p className={s.brandtext}>About us</p>
+              <h1>How we Started</h1>
+              <p className="mt-5 mb-5">
+                “Merit Brand” MMC - ən son avadanlıq növləri ilə təchiz olunmuş
+                müasir istehsalat müəssisəsidir. İngilis dilindən tərcümədə,
+                "Merit" sözü "ləyaqət", "üstünlük", "keyfiyyət" deməkdir.
+                Verilmiş ad, müəssisənin mahiyyətini, onun istehsalat
+                qabiliyyətini, gücünü və yeniliklərdən istifadə etmək
+                qabiliyyətindən ibarət olan xüsusiyyətləri tam əks etdirir.
+                “Merit Brand” zavodu, 2007-ci ildə Azərbaycan Respublikasının
+                Şabran qəsəbəsi, Böyük Qafqaz dağlarının ətəyində və Xəzər
+                dənizinin sahilində yerləşən Uzun Boyat kəndinin ərazisində
+                yaradılıb. Onun məskunlaşdığı yer təsadüfi seçilməmişdi çunki
+                təbiət bu bölgəyə şərabçılıq ilə məşğul olmaq üçün məhsuldar
+                torpaq və çox əlverişli iqlim şəraiti kimi tohvələr bəxş
+                etmişdi.
+              </p>
+            </div>
+          </Col>
+        </Row>
+        <Row className="d-flex justify-content-center ">
           <Col md="4" className="p-0">
             <div className={s.ContactUsLeft}>
               <img src={img} alt="img" />
@@ -24,13 +47,16 @@ function ContactUs() {
           </Col>
           <Col md="4" className="p-0">
             <div className={s.ContactUsRight}>
-              <h1>WELCOME TO OUR STORE</h1>
+            <p className={s.brandtext}>About us</p>
+              <h1>How we Started</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                malesuada, nisl eget ultricies tincidunt, nunc elit lacinia
-                mauris, eget aliquam nunc justo vel mauris. Sed malesuada, nisl
-                eget ultricies tincidunt, nunc elit lacinia mauris, eget aliquam
-                nunc justo vel mauris.
+                “Merit Brand” zavodu, 2007-ci ildə Azərbaycan Respublikasının
+                Şabran qəsəbəsi, Böyük Qafqaz dağlarının ətəyində və Xəzər
+                dənizinin sahilində yerləşən Uzun Boyat kəndinin ərazisində
+                aradılıb. Onun məskunlaşdığı yer təsadüfi seçilməmişdi çunki
+                təbiət bu bölgəyə şərabçılıq ilə məşğul olmaq üçün məhsuldar
+                torpaq və çox əlverişli iqlim şəraiti kimi tohvələr bəxş
+                etmişdi.
               </p>
             </div>
           </Col>
@@ -39,13 +65,20 @@ function ContactUs() {
         <Row className="d-flex justify-content-center ">
           <Col md="4" className="p-0">
             <div className={s.ContactUsRight}>
-              <h1>WELCOME TO OUR STORE</h1>
+            <p className={s.brandtext}>About us</p>
+              <h1>Passion & Craftmanship</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                malesuada, nisl eget ultricies tincidunt, nunc elit lacinia
-                mauris, eget aliquam nunc justo vel mauris. Sed malesuada, nisl
-                eget ultricies tincidunt, nunc elit lacinia mauris, eget aliquam
-                nunc justo vel mauris.
+                Bizim zavodumuz həmçinin araq istehsalı ilə də məşğul olur. Bu
+                məqsədlə, zavod ərazisində bu günə texnoloji cəhətdən ən
+                qabaqcıl avadanlıq ilə təchiz olunmuş xüsusi bina ayrılmışdır.
+                Ukrayna və Kabardino-Balkariyadan dəvət olunmuş geniş təcrübəyə
+                malik olan mütəxəssislər burada gedən bütün istehsalat
+                proseslərinə nəzarət yetirirlər. Reseptlərin əsasını yalnız
+                təbii mənşəli olan xammal təşkil edir. İstehsalda istifadə
+                edilən dağlıq mənbələrinin suları unikal və faydalı
+                xüsusiyyətlərə malikdir. Filtrasiya prosesi demək olar ki, araq
+                istehsalının hər bir mərhələsində istifadə edildiyi üçün, burada
+                ən əsas sayıla bilər
               </p>
             </div>
           </Col>

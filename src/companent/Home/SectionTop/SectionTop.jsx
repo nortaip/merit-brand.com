@@ -16,6 +16,7 @@ function SectionTop() {
           </Col>
           <Col md="4">
             <div className={s.SectionTopRight}>
+              <p className={s.brandtext}>Merid-Brand</p>
               <h1>Mirvari</h1>
               <p>
                 Made from grape Cabernet Sauvignon & Merlot which is cultivated
@@ -35,6 +36,7 @@ function SectionTop() {
         <Row className="d-flex justify-content-center mt-5">
           <Col md="4">
             <div className={s.SectionTopRight}>
+            <p className={s.brandtext}>Merid-Brand</p>
               <h1>Red Dry Wine</h1>
               <p>
                 Bu günə, ümumi sahəsi 150 hektardan çox olan üzüm bağlarımızda

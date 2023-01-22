@@ -2,6 +2,7 @@
   .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 10px 20px;
 
     .navbar__logo {
       img {
@@ -9,7 +10,6 @@
         height: 53px;
       }
     }
-    
   }
 }
 @media screen and (min-width: 768px) {
@@ -17,10 +17,58 @@
     display: none;
   }
 }
-
-.Offcanvas_body{
-  background-color: #010101!important;
+.offcanvas {
+  width: 100%;
 }
-.Offcanvas_header{
-  background-color: #010101!important;
+.Offcanvas_body {
+  background-color: #010101 !important;
+  display: flex;
+  justify-content: center;
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+    }
+  }
+}
+.Offcanvas_header {
+  background-color: #010101 !important;
+  color: #bea741;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icongap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button_offanvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.offcanvas_title {
+  margin-left: 20px;
+  padding: 20px 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.button_offcanvas{
+  height: 25px;
 }

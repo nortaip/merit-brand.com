@@ -1,0 +1,72 @@
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  .navbar .navbar__logo img {
+    width: 69px;
+    height: 53px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
+.offcanvas {
+  width: 100%;
+}
+
+.Offcanvas_body {
+  background-color: #010101 !important;
+  display: flex;
+  justify-content: center;
+}
+.Offcanvas_body ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.Offcanvas_body li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 20px;
+}
+.Offcanvas_body li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.Offcanvas_header {
+  background-color: #010101 !important;
+  color: #bea741;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icongap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button_offanvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offcanvas_title {
+  margin-left: 20px;
+  padding: 20px 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.button_offcanvas {
+  height: 25px;
+}

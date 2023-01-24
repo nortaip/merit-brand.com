@@ -15,17 +15,17 @@ function ContactFooter() {
             </div>
             <Row>
               <Col md={6} className={s.ContactFooterLeft}>
-                <h6>Adress</h6>
+         
                 {/* <p>Oficce</p> */}
-                <p>Ziya Bunyadov ave,43M </p>
-                <p>Baku,Azerbaijan AZ1108 </p>
-                <p>Factory</p>
+                {/* <p>Ziya Bunyadov ave,43M </p>
+                <p>Baku,Azerbaijan AZ1108 </p> */}
+                <h6>Adress</h6>
                 <p>Uzun Boyat village </p>
                 <p> Shabran Azerbaijan AZ1700</p>
               </Col>
               <Col md={6} className={s.ContactFooterRight}>
                 <h6>Contact</h6>
-                <p>+994 51 391-3434</p>
+                {/* <p>+994 51 391-3434</p> */}
                 <p>+994 12 561-9661</p>
                 <p>Email : office@merit-brand.com</p>
               </Col>

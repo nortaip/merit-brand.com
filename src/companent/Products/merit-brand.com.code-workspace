@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"name": "SSH FS - flejob",
+		"uri": "ssh://unnamed/home/i/infofl7n"
+	}
+],
+  "settings": {}
+}

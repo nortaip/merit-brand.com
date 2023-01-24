@@ -2,20 +2,17 @@
   background-color: #131313;
   color: #fff;
   padding: 40px 0;
-
   text-align: center;
-
-  .brandText {
-    color: #bea741 !important;
-    margin: 0;
-  }
-  h1{
-    padding: 5px 0 20px 0;
-  }
+}
+.Footer .brandText {
+  color: #bea741 !important;
+  margin: 0;
+}
+.Footer h1 {
+  padding: 5px 0 20px 0;
 }
 
-
-.img{
+.img {
   width: 250px;
   height: 250px;
   object-fit: cover;

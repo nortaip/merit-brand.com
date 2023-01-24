@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import s from "./Footer.module.scss";
+import img from "./../../img/666.png"
 
 function Footer() {
   return (
@@ -11,10 +12,11 @@ function Footer() {
         <Row>
           <Col md={6} className="m-auto">
             <div className={s.FooterLeft}>
-              <p className={s.brandText} >MERIT BRAND</p>
-              <h1>We make good wines</h1>
+              {/* <p className={s.brandText} >MERIT BRAND</p> */}
+              {/* <h1>We make good wines</h1> */}
+              <img className={s.img } src={img} alt="" />
               <p>
-              © 2021 VILLENOIR. All rights reserved
+              © 2023 VILLENOIR. All rights reserved
               </p>
             </div>
           </Col>

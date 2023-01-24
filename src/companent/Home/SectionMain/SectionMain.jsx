@@ -5,8 +5,17 @@ import { Col } from "react-bootstrap";
 import s from "./SectionMain.module.scss";
 import img from "./../../../img/234.png";
 import img1 from "./../../../img/2345.png";
+import { useTranslation } from "react-i18next";
+
 
 function SectionMain() {
+
+  const { t } = useTranslation();
+  // const changeLanguage = (language) => {
+  //   i18n.changeLanguage(language);
+  // };
+
+
   return (
     <div className="mt-5 mb-5">
       <Container fluid>
@@ -19,13 +28,10 @@ function SectionMain() {
           <Col md={6}>
             <div className={s.sectionMain}>
             <p className={s.brandtext}>Merid-Brand</p>
-              <h1 className={s.sectionMain__title}>The Lido</h1>
+              <h1 className={s.sectionMain__title}>{t(`lido`)}</h1>
 
               <p className={s.sectionMain__text}>
-                Made from grape Cabernet Sauvignon & Merlot which is cultivated
-                in a region of Shabran. Wine is violet-red color with smooth
-                fruit aroma with notes of black currant. Recommended to serve
-                red meat, salads & cheese. Flow temperature 14°-16
+                {t(`lido1`)}
               </p>
             </div>
           </Col>
@@ -34,14 +40,10 @@ function SectionMain() {
           <Col md={6}>
             <div className={s.sectionMain}>
             <p className={s.brandtext}>Merid-Brand</p>
-              <h1 className={s.sectionMain__title}>The Sabran</h1>
+              <h1 className={s.sectionMain__title}>{t(`goldshabran`)}</h1>
 
               <p className={s.sectionMain__text}>
-                The company Merit Brand LTD is engaged in the production of red,
-                white, dry, semi-sweet, sweet wines, vodka, whiskey and cognac.
-                Today, the range of products covers both the local market and
-                the international one. The company exports wines to the Russian
-                Federation and China.
+              {t(`goldshabran1`)}
               </p>
             </div>
           </Col>

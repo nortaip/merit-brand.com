@@ -9,6 +9,9 @@
     width: 100% !important;
     height: 370px;
     object-fit: cover;
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
 
@@ -18,6 +21,7 @@
 }
 .colpadding{
   padding:  15px;
+
 }
 .ProductCardPrice{
   color: #bea741;

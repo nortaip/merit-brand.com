@@ -1,0 +1,13 @@
+.ContactFooter {
+  padding: 40px 0 30px 0;
+  color: white;
+}
+.ContactFooter .ContactFooterLeft, .ContactFooter .ContactFooterRight {
+  text-align: center;
+}
+.ContactFooter .ContactFooterLeft p, .ContactFooter .ContactFooterRight p {
+  margin: 0;
+}
+.ContactFooter .ContactFooterLeft h6, .ContactFooter .ContactFooterRight h6 {
+  margin: 0;
+}

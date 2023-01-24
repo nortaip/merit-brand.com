@@ -3,11 +3,26 @@ import { Container } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import s from "./SectionTop.module.scss";
 import img from "./../../../img/1.jpg";
+import { useTranslation } from "react-i18next";
+
+
+
+
 
 function SectionTop() {
+
+
+  const { t} = useTranslation();
+  // const changeLanguage = (language) => {
+  //   i18n.changeLanguage(language);
+  // };
+
+
+
   return (
     <div className={s.SectionTop}>
       <Container>
+    
         <Row className="d-flex justify-content-center mt-5">
           <Col md="4">
             <div className={s.SectionTopLeft}>
@@ -17,7 +32,11 @@ function SectionTop() {
           <Col md="4">
             <div className={s.SectionTopRight}>
               <p className={s.brandtext}>Merid-Brand</p>
-              <h1>Mirvari</h1>
+              {/* <h1>Mirvari</h1> */}
+              <h1>{t(`brand`)}</h1>
+
+       
+              
               <p>
                 Made from grape Cabernet Sauvignon & Merlot which is cultivated
                 in a region of Shabran. Wine is violet-red color with smooth
@@ -37,14 +56,9 @@ function SectionTop() {
           <Col md="4">
             <div className={s.SectionTopRight}>
             <p className={s.brandtext}>Merid-Brand</p>
-              <h1>Red Dry Wine</h1>
+              <h1>{t(`aylingold`)}</h1>
               <p>
-                Bu günə, ümumi sahəsi 150 hektardan çox olan üzüm bağlarımızda
-                Cabernet Sauvignon, Pinot Noir, Merlot, Pinot Meunier,
-                Chardonnay, Madrasa və Takveri kimi müxtəlif üzüm növləri
-                yetişdirilir, və bütün bunlar müxtəlif şərablarların
-                hazırlanması və maraqlı qarışıqların yaranması üçün gözəl bir
-                fürsət yaradır
+              {t(`aylingold1`)}
               </p>
             </div>
           </Col>

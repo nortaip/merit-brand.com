@@ -1,0 +1,16 @@
+.sectionMain__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.brandtext {
+  color: #bea741;
+}
+
+.sectionMain {
+  text-align: center;
+  width: 60%;
+  color: white;
+  margin: 0 auto;
+}

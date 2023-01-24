@@ -1,5 +1,5 @@
 .Product {
-  margin: 55px 0;
+  margin: 155px 0;
 
   .ProductDetailsImg {
     img {
@@ -7,9 +7,22 @@
       height: 100%;
       object-fit: cover;
     }
+
+    &:hover {
+      img {
+        transform: scale(1.7);
+        transition: all 0.5s ease;
+      }
+    }
   }
 
   .ProductDetailsInfo {
     color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Product {
+    margin: 0;
   }
 }

@@ -8,17 +8,18 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { NavLink } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 
 library.add(faFacebook, faInstagram);
 
 function HeaderS() {
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
-    
     <Nav className={s.header}>
       <Container>
-
-        
         <Row className="p-0 m-0">
           <Col md="2" className="p-0">
             <div className={s.headerLogo}>
@@ -35,7 +36,7 @@ function HeaderS() {
                     navData.isActive ? s.active : s.item
                   }
                 >
-                  HOME
+                  {(t`homepage`)}
                 </NavLink>
               </li>
               <li>
@@ -45,31 +46,44 @@ function HeaderS() {
                     navData.isActive ? s.active : s.item
                   }
                 >
-                  PRODUCTS
+                          {(t`products`)}
                 </NavLink>
               </li>
 
               <li>
                 <NavLink
-                  to={`contact`}
+                  to={`about-us`}
                   className={(navData) =>
                     navData.isActive ? s.active : s.item
                   }
                 >
                   {" "}
-                  ABOUT US
+                  {(t`about`)}
                 </NavLink>
               </li>
-
-              <li>CONTACT </li>
+              <li>
+                <NavLink
+                  to={`contacts`}
+                  className={(navData) =>
+                    navData.isActive ? s.active : s.item
+                  }
+                >
+                  {" "}
+                  {(t`contact`)}
+                </NavLink>
+              </li>
             </ul>
           </Col>
           <Col md="2">
             <div className={s.headerRight}>
               <ul>
-                <li>EN</li>
+    
+                <button onClick={() => changeLanguage("en")}>en</button>
+                <button onClick={() => changeLanguage("az")}>az</button>
+                <button onClick={() => changeLanguage("ru")}>ru</button>
+
                 <li>
-                  <a  href="https://www.instagram.com/meritbrand2007/">
+                  <a href="https://www.instagram.com/meritbrand2007/">
                     {" "}
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>

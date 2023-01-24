@@ -1,0 +1,21 @@
+.Product {
+  margin: 155px 0;
+}
+.Product .ProductDetailsImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Product .ProductDetailsImg:hover img {
+  transform: scale(1.7);
+  transition: all 0.5s ease;
+}
+.Product .ProductDetailsInfo {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .Product {
+    margin: 0;
+  }
+}

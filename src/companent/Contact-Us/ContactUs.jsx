@@ -8,8 +8,15 @@ import img from "./../../img/34.png";
 import img1 from "./../../img/345.png";
 import ContactFooter from "./ContactFooter/ContactFooter";
 import headerimg from "./../../img/ggg.png";
+// import { useTranslation } from "react-i18next";
 
 function ContactUs() {
+
+  // const { t,i18n } = useTranslation();
+  // const changeLanguage = (language) => {
+  //   i18n.changeLanguage(language);
+  // };
+
   return (
     <div className={s.ContactUs}>
       <div className={s.contactusnone}>

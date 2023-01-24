@@ -1,19 +1,47 @@
 // import img
-import img from '../img/1.jpg';
-import img1 from '../img/image3.png';
-
+import img from "../img/1.jpg";
+import img1 from "../img/image3.png";
+import img2 from "../img/64ae0fe7-ee3f-4171-b8ea-7769a5bb73f8.jpg";
+import img3 from "../img/aab54209-4733-474c-bf32-27c0c8c0029b.jpg";
 
 const products = [
+  // {
+  //   id: 999,
+  //   price: 1000,
+  //   image: img3,
+  //   brand: "Agsu",
+  //   barcode: "123456789",
+  //   details: {
+  //     ru: {
+  //       name: "Шабран",
+  //       description: "Product 11 description",
+  //       category: "Wine",
+  //     },
+  //     en: {
+  //       name: "Product 1",
+  //       description: "Product 2 description",
+  //       category: "Wine",
+  //     },
+  //     az: {
+  //       name: "Product 2",
+  //       description: "Product 3 description",
+  //       category: "Wine",
+  //     },
+  //   },
+  // },
+
   {
-    id: 1,
-    name: "Product 1",
-    price: 100,
-    description: "Product 1 description",
-    image: img,
+    id: 123456789,
+    name: "Product 10",
+    price: 1000,
+    description: "Product 10 description",
+    image: img2,
     brand: "Agsu",
-    category: "Beer",
+    category: "Vodka",
+
     barcode: "123456789",
   },
+
   {
     id: 2,
     name: "Product 2",
@@ -100,17 +128,45 @@ const products = [
     name: "Product 10",
     price: 1000,
     description: "Product 10 description",
-    image: img1,
+    image: img3,
     brand: "Agsu",
     category: "Vodka",
 
     barcode: "123456789",
   },
+  {
+    id: 123456789,
+    name: "Product 10",
+    price: 1000,
+    description: "Product 10 description",
+    image: img2,
+    brand: "Agsu",
+    category: "Vodka",
 
-    
+    barcode: "123456789",
+  },
+  {
+    id: 123456789,
+    name: "Product 10",
+    price: 1000,
+    description: "Product 10 description",
+    image: img3,
+    brand: "Agsu",
+    category: "Vodka",
 
+    barcode: "123456789",
+  },
+  {
+    id: 123456789,
+    name: "Product 10",
+    price: 1000,
+    description: "Product 10 description",
+    image: img2,
+    brand: "Agsu",
+    category: "Vodka",
 
-
+    barcode: "123456789",
+  },
 ];
 
 export default products;

@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import s from "./Products.module.scss";
 import ProductCardComponent from "../ProductCardComponent";
 import headerimg from "./../../img/ggg.png";
-import { useState } from "react";
+// import { useState } from "react";
 // import products from "../../data/productsData.js";
 import data from "../../data/productsData.js";
 

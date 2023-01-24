@@ -70,9 +70,19 @@ const Navbar = () => {
                   onClick={() => {
                     setShow(false);
                   }}
-                  to="/contact"
+                  to="/about-us"
                 >
                   About us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() => {
+                    setShow(false);
+                  }}
+                  to="/contact"
+                >
+                Contact
                 </Link>
               </li>
               <li>

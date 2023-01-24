@@ -2,7 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import s from "./SectionTop.module.scss";
-import img from "./../../../img/1.jpg";
+import img3 from "./../../../img/image3.png";
+import img4 from "./../../../img/image4.png";
 import { useTranslation } from "react-i18next";
 
 
@@ -26,28 +27,21 @@ function SectionTop() {
         <Row className="d-flex justify-content-center mt-5">
           <Col md="4">
             <div className={s.SectionTopLeft}>
-              <img src={img} alt="img" />
+              <img src={img3} alt="img" />
             </div>
           </Col>
           <Col md="4">
             <div className={s.SectionTopRight}>
-              <p className={s.brandtext}>Merid-Brand</p>
-              {/* <h1>Mirvari</h1> */}
-              <h1>{t(`brand`)}</h1>
+              <p className={s.brandtext}>Merit-Brand</p>
+              <h1>Mirvari</h1>
+              {/* <h1>{t(`brand`)}</h1> */}
 
        
               
               <p>
-                Made from grape Cabernet Sauvignon & Merlot which is cultivated
-                in a region of Shabran. Wine is violet-red color with smooth
-                fruit aroma with notes of black currant. Recommended to serve
-                red meat, salads & cheese. Flow temperature 14°-16°
+      {t(`mirvari1`)}
               </p>
-              <p>
-                Made from grape Madrasa which is cultivated in a region of
-                Shabran. Wine is light-red color with smooth cherry aroma.
-                Recommended to serve beef and lambats. Flow temperature 14°-16°
-              </p>
+
             </div>
           </Col>
         </Row>
@@ -55,7 +49,7 @@ function SectionTop() {
         <Row className="d-flex justify-content-center mt-5">
           <Col md="4">
             <div className={s.SectionTopRight}>
-            <p className={s.brandtext}>Merid-Brand</p>
+            <p className={s.brandtext}>Merit-Brand</p>
               <h1>{t(`aylingold`)}</h1>
               <p>
               {t(`aylingold1`)}
@@ -64,7 +58,7 @@ function SectionTop() {
           </Col>
           <Col md="4">
             <div className={s.SectionTopLeft}>
-              <img src={img} alt="img" />
+              <img src={img4} alt="img" />
             </div>
           </Col>
         </Row>

@@ -27,7 +27,7 @@ function SectionMain() {
           </Col>
           <Col md={6}>
             <div className={s.sectionMain}>
-            <p className={s.brandtext}>Merid-Brand</p>
+            <p className={s.brandtext}>Merit-Brand</p>
               <h1 className={s.sectionMain__title}>{t(`lido`)}</h1>
 
               <p className={s.sectionMain__text}>
@@ -39,7 +39,7 @@ function SectionMain() {
         <Row>
           <Col md={6}>
             <div className={s.sectionMain}>
-            <p className={s.brandtext}>Merid-Brand</p>
+            <p className={s.brandtext}>Merit-Brand</p>
               <h1 className={s.sectionMain__title}>{t(`goldshabran`)}</h1>
 
               <p className={s.sectionMain__text}>

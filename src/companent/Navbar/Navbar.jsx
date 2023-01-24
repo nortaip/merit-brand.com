@@ -6,8 +6,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Offcanvas, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+
+  const { t } = useTranslation();
+
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -52,7 +57,7 @@ const Navbar = () => {
                   }}
                   to="/home"
                 >
-                  Home
+                {t( "homepage")}
                 </Link>
               </li>
               <li>
@@ -62,7 +67,7 @@ const Navbar = () => {
                   }}
                   to="/products"
                 >
-                  Products
+             {t("products")}
                 </Link>
               </li>
               <li>
@@ -72,7 +77,7 @@ const Navbar = () => {
                   }}
                   to="/about-us"
                 >
-                  About us
+                {t("about")}
                 </Link>
               </li>
               <li>
@@ -82,7 +87,7 @@ const Navbar = () => {
                   }}
                   to="/contact"
                 >
-                Contact
+            {t("contact")}
                 </Link>
               </li>
               <li>

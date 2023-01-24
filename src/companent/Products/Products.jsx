@@ -26,7 +26,7 @@ function Products() {
         <div className={s.Products__filter}>
           <button  onClick={() => setProducts(data)}>All</button>
           <button onClick={() => filterProducts("Vodka")}>Vodka</button>
-          <button onClick={() => filterProducts("Beer")}>Beer</button>
+          {/* <button onClick={() => filterProducts("Beer")}>Beer</button> */}
           <button onClick={() => filterProducts("Wine")}>Wine</button>
           <button onClick={() => filterProducts("Whiskey")}>Whiskey</button>
           <button onClick={() => filterProducts("Rum")}>Rum</button>
@@ -43,7 +43,9 @@ function Products() {
                 title={product.name}
                 price={product.price}
                 id={product.id}
+                brand={product.brand}
                 category={product.category}
+
               />
             );
           })}

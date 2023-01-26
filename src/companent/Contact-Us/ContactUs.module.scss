@@ -17,23 +17,24 @@
   padding: 10%;
 }
 
-.brandtext{
-  color: #BEA741;
+.brandtext {
+  color: #bea741;
   padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 @media screen and (max-width: 767px) {
   .ContactUs {
     margin: 0;
   }
-  .contactusnone{
+  .contactusnone {
     display: none;
   }
 }
-.ContactUsHeader{
-  h1{
+.ContactUsHeader {
+  h1 {
     text-align: center;
   }
-  p{
+  p {
     text-align: center;
   }
 }

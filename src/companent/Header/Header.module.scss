@@ -77,3 +77,20 @@
     display: none;
   }
 }
+
+.langbtnheader{
+  background-color: #131313;
+
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  &:hover {
+    color: #bea741;
+    transition: all 0.3s ease-in-out;
+  }
+}

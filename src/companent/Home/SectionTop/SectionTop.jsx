@@ -50,7 +50,7 @@ function SectionTop() {
           <Col md="4">
             <div className={s.SectionTopRight}>
             <p className={s.brandtext}>Merit-Brand</p>
-              <h1>{t(`aylingold`)}</h1>
+              <h1 className="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">{t(`aylingold`)}</h1>
               <p>
               {t(`aylingold1`)}
               </p>

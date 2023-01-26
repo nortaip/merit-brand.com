@@ -6,12 +6,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Offcanvas, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { t } from "i18next";
+
 import { useTranslation } from "react-i18next";
+import i18n from "i18next";
+
 
 const Navbar = () => {
 
   const { t } = useTranslation();
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
 
   const [show, setShow] = useState(false);
 
@@ -89,6 +95,11 @@ const Navbar = () => {
                 >
             {t("contact")}
                 </Link>
+              </li>
+              <li>
+              <button className={s.langbtnheader} onClick={() => changeLanguage("en")}>en</button>
+                <button className={s.langbtnheader} onClick={() => changeLanguage("az")}>az</button>
+                <button className={s.langbtnheader} onClick={() => changeLanguage("ru")}>ru</button>
               </li>
               <li>
                 <span className={s.icongap}>

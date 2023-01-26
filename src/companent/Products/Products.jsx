@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import s from "./Products.module.scss";
 import ProductCardComponent from "../ProductCardComponent";
-import headerimg from "./../../img/ggg.png";
-// import { useState } from "react";
-// import products from "../../data/productsData.js";
+import headerimg from "./../../img/qwerty.png";
 import data from "../../data/productsData.js";
 
 function Products() {
@@ -24,9 +22,8 @@ function Products() {
       </div>
       <Row>
         <div className={s.Products__filter}>
-          <button  onClick={() => setProducts(data)}>All</button>
+          <button onClick={() => setProducts(data)}>All</button>
           <button onClick={() => filterProducts("Vodka")}>Vodka</button>
-          {/* <button onClick={() => filterProducts("Beer")}>Beer</button> */}
           <button onClick={() => filterProducts("Wine")}>Wine</button>
           <button onClick={() => filterProducts("Whiskey")}>Whiskey</button>
           <button onClick={() => filterProducts("Rum")}>Rum</button>
@@ -41,11 +38,12 @@ function Products() {
                 data={product}
                 img={product.image}
                 title={product.name}
-                price={product.price}
                 id={product.id}
                 brand={product.brand}
+                name1={product.name1}
                 category={product.category}
-
+                details={product.details}
+                description={product.description}
               />
             );
           })}

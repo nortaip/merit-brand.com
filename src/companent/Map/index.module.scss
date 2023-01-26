@@ -1,0 +1,9 @@
+.Map {
+  margin-top: 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .Map {
+    margin-top: 0;
+  }
+}

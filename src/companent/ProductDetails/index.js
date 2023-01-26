@@ -5,30 +5,29 @@ import s from "./index.module.scss";
 
 export default function ProductDetails() {
   const { state } = useLocation();
-  const { barcode, brand, category, description, id, image, name, price } =
+  const { brand, image, name, name1, details,description} =
     state;
 
   return (
     <div className={s.Product}>
       <Container>
-        <Row>
-          <Col md={6}>
+        <Row className="d-flex justify-content-center align-items-center" >
+          <Col md={4}>
             <div className={s.ProductDetailsImg}>
 
               <img src={image} alt="1234567890" />
             </div>
           </Col>
-          <Col md={6}>
+          <Col md={4} className="text-center">
             <div className={s.ProductDetailsInfo}>
-              <div className={s.ProductDetailsTitle}>{id}</div>
+            <div className={s.ProductDetailsBrand}> {brand}</div>
               <div className={s.ProductDetailsTitle}>{name}</div>
-              <div className={s.ProductDetailsPrice}>$ {price}</div>
+              <div className={s.ProductDetailsName1}>{name1}</div>
               <div className={s.ProductDetailsDescription}>{description}</div>
-              <div className={s.ProductDetailsBarcode}>Barcode: {barcode}</div>
-              <div className={s.ProductDetailsBrand}>Brand: {brand}</div>
-              <div className={s.ProductDetailsCategory}>
-                Category: {category}
-              </div>
+              <div className={s.ProductDetailsDetails}>{details}</div>
+              
+
+         
             </div>
           </Col>
         </Row>

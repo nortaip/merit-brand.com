@@ -61,7 +61,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .offcanvas_title {
   margin-left: 20px;
@@ -69,6 +68,22 @@
   font-size: 2rem;
   font-weight: 800;
 }
-.button_offcanvas{
+.button_offcanvas {
   height: 25px;
+}
+
+.langbtnheader {
+  margin: 0 5px;
+  background-color: #131313;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  // padding: 10px 20px;
+  border-radius: 5px;
+  &:hover {
+    color: #bea741;
+    transition: all 0.3s ease-in-out;
+  }
 }

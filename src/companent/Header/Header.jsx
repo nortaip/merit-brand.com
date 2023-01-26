@@ -78,9 +78,9 @@ function HeaderS() {
             <div className={s.headerRight}>
               <ul>
     
-                <button onClick={() => changeLanguage("en")}>en</button>
-                <button onClick={() => changeLanguage("az")}>az</button>
-                <button onClick={() => changeLanguage("ru")}>ru</button>
+                <button className={s.langbtnheader} onClick={() => changeLanguage("en")}>en</button>
+                <button className={s.langbtnheader} onClick={() => changeLanguage("az")}>az</button>
+                <button className={s.langbtnheader} onClick={() => changeLanguage("ru")}>ru</button>
 
                 <li>
                   <a href="https://www.instagram.com/meritbrand2007/">

@@ -13,34 +13,34 @@ import img13 from "../img/img/13.jpg";
 import img14 from "../img/img/14.jpg";
 import img15 from "../img/img/15.jpg";
 import img16 from "../img/img/16.jpg";
-import img17 from "../img/img/17.jpg";
+import img17 from "../img/img/17.jpeg";
 import img18 from "../img/img/18.jpg";
-import img19 from "../img/img/19.jpg";
+import img19 from "../img/img/19.jpeg";
 import img20 from "../img/img/20.jpg";
-import img21 from "../img/img/21.jpg";
-import img22 from "../img/img/22.jpg";
-import img23 from "../img/img/23.jpg";
-import img24 from "../img/img/24.jpg";
+import img21 from "../img/img/21.jpeg";
+import img22 from "../img/img/22.jpeg";
+import img23 from "../img/img/23.jpeg";
+import img24 from "../img/img/24.jpeg";
 import img25 from "../img/img/25.jpg";
-import img26 from "../img/img/26.jpg";
-import img27 from "../img/img/27.jpg";
+import img26 from "../img/img/26.jpeg";
+import img27 from "../img/img/27.jpeg";
 import img28 from "../img/img/28.jpg";
 import img29 from "../img/img/29.jpg";
 import img30 from "../img/img/30.jpg";
-import img31 from "../img/img/31.jpg";
-import img32 from "../img/img/32.jpg";
-import img33 from "../img/img/33.jpg";
-import img34 from "../img/img/34.jpg";
-import img35 from "../img/img/35.jpg";
-import img36 from "../img/img/36.jpg";
-import img37 from "../img/img/37.jpg";
-import img38 from "../img/img/38.jpg";
+import img31 from "../img/img/31.jpeg";
+import img32 from "../img/img/32.jpeg";
+import img33 from "../img/img/33.jpeg";
+import img34 from "../img/img/34.jpeg";
+import img35 from "../img/img/35.jpeg";
+import img36 from "../img/img/36.jpeg";
+import img37 from "../img/img/37.jpeg";
+import img38 from "../img/img/38.jpeg";
 import img39 from "../img/img/39.jpg";
 import img40 from "../img/img/40.jpg";
-import img41 from "../img/img/41.jpg";
-import img42 from "../img/img/42.jpg";
-import img43 from "../img/img/43.jpg";
-import img44 from "../img/img/44.jpg";
+import img41 from "../img/img/41.jpeg";
+import img42 from "../img/img/42.jpeg";
+import img43 from "../img/img/43.jpeg";
+import img44 from "../img/img/44.jpeg";
 import img45 from "../img/img/45.jpg";
 import img46 from "../img/img/46.jpg";
 import img47 from "../img/img/47.jpg";
@@ -56,17 +56,7 @@ const products = [
     brand: "Merit-Brand",
     name: "Mirvari",
     name1: "",
-    details: {
-      ru: {
-        description: "Product 11 description",
-      },
-      en: {
-        description: "Product 2 description",
-      },
-      az: {
-        description: "Product 3 description",
-      },
-    },
+
   },
   {
     id: 2,
@@ -306,7 +296,6 @@ const products = [
   },
   {
     id: 33,
-
     image: img33,
     brand: "Merit-Brand",
     name: "Syrah",
@@ -316,7 +305,6 @@ const products = [
 
     image: img34,
     brand: "Merit-Brand",
-
     name: "Sauvignon Blanc",
   },
   {

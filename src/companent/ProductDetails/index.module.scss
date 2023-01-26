@@ -35,9 +35,19 @@
   font-size:40px;
   font-weight: 800;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  &:hover{
+    color: #bea741;
+  }
 }
 .ProductDetailsName1{
+
   font-size: 30px;
+  &:hover{
+    color: #bea741;
+  }
+
+
 }
 .ProductDetailsDetails, .ProductDetailsDescription{
   color: #bea741;

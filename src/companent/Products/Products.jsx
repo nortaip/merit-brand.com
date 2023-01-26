@@ -15,6 +15,7 @@ function Products() {
     setProducts(result);
   };
 
+
   return (
     <div className={s.Products}>
       <div className={s.Productsnone}>
@@ -43,7 +44,9 @@ function Products() {
                 name1={product.name1}
                 category={product.category}
                 details={product.details}
-                description={product.description}
+          
+                // details={details.description}
+             
               />
             );
           })}

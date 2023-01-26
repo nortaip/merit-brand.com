@@ -32,9 +32,15 @@
   font-weight: 800;
   color: red;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  &:hover{
+    color: white;
+  }
 }
 .ProductCardName1{
   font-size: 20px;
   font-weight: 00;
   color: red;
+  &:hover{
+    color: white;
+  }
 }

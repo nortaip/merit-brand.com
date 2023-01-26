@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
-
 import s from "./ContactUs.module.scss";
 import img from "./../../img/34.png";
 import img1 from "./../../img/345.png";
@@ -11,11 +10,8 @@ import headerimg from "./../../img/ggg.png";
 import { useTranslation } from "react-i18next";
 
 function ContactUs() {
+  const { t} = useTranslation();
 
-  const { t,i18n } = useTranslation();
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
 
   return (
     <div className={s.ContactUs}>
@@ -28,9 +24,7 @@ function ContactUs() {
             <div className={s.ContactUsHeader}>
               <p className={s.brandtext}>{t("about")}</p>
               <h1>{t("started")}</h1>
-              <p className="mt-5 mb-5">
-{t("abouttext1")}
-              </p>
+              <p className="mt-5 mb-5">{t("abouttext1")}</p>
             </div>
           </Col>
         </Row>
@@ -42,11 +36,9 @@ function ContactUs() {
           </Col>
           <Col md="4" className="p-0">
             <div className={s.ContactUsRight}>
-            <p className={s.brandtext}>{t("about")}</p>
-            <h1>{t("started")}</h1>
-              <p>
-                {t("abouttext2")}
-              </p>
+              <p className={s.brandtext}>{t("about")}</p>
+              <h1>{t("started")}</h1>
+              <p>{t("abouttext2")}</p>
             </div>
           </Col>
         </Row>
@@ -54,11 +46,9 @@ function ContactUs() {
         <Row className="d-flex justify-content-center ">
           <Col md="4" className="p-0">
             <div className={s.ContactUsRight}>
-            <p className={s.brandtext}>{t("about")}</p>
+              <p className={s.brandtext}>{t("about")}</p>
               <h1>{t("abouttext4")}</h1>
-              <p>
-                {t("abouttext3")}
-              </p>
+              <p>{t("abouttext3")}</p>
             </div>
           </Col>
           <Col md="4" className="p-0">

@@ -3,7 +3,7 @@ import { Col } from "react-bootstrap";
 import s from "./index.module.scss";
 import { useNavigate } from "react-router-dom";
 
-function ProductCardComponent({ img, title, brand, data, name1,id }) {
+function ProductCardComponent({ img, title, brand, data, name1 }) {
   const navigate = useNavigate();
 
   return (
@@ -15,11 +15,10 @@ function ProductCardComponent({ img, title, brand, data, name1,id }) {
         <div className={s.ProductCardImg}>
           <img src={img} alt="123456789" />
         </div>{" "}
-    
         <div className={s.ProductCardPrice}> {brand}</div>
         <div className={s.ProductCardTitle}>{title}</div>
         <div className={s.ProductCardName1}>{name1}</div>
-
+    
       </div>
     </Col>
   );

@@ -26,7 +26,7 @@ function Products() {
           <button onClick={() => setProducts(data)}>All</button>
           <button onClick={() => filterProducts("Vodka")}>Vodka</button>
           <button onClick={() => filterProducts("Wine")}>Wine</button>
-          <button onClick={() => filterProducts("Whiskey")}>Whiskey</button>
+          <button onClick={() => filterProducts("Сognac")}>Сognac</button>
           <button onClick={() => filterProducts("Rum")}>Rum</button>
         </div>
       </Row>
@@ -44,6 +44,10 @@ function Products() {
                 name1={product.name1}
                 category={product.category}
                 details={product.details}
+                text={product.text}
+                text1={product.text1}
+                text2={product.text2}
+                text3={product.text3}
           
                 // details={details.description}
              

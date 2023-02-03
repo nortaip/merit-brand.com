@@ -25,10 +25,11 @@ export default function ProductDetails() {
               <div className={s.ProductDetailsTitle}>{name}</div>
               <div className={s.ProductDetailsName1}>{name1}</div>
               <br/>
-              <br/>
+             
 
               <div className={s.ProductDetailsDescription}>{description}</div>
               {/* <div className={s.ProductDetailsDetails}>{t(`details`)}</div> */}
+              <div className={s.s}> 
               <div>{text}</div>
               <br/>
               <div>{text1}</div>
@@ -38,6 +39,9 @@ export default function ProductDetails() {
               <div>{text3}</div>
               <br/>
               <div>{text4}</div>
+              </div>
+
+
             </div>
             
           </Col>

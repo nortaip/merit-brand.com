@@ -29,12 +29,14 @@
 }
 
 .ProductDetailsBrand{
-  color: #bea741;
+color: 
+rgba(138, 101, 48, 1);
 }
 .ProductDetailsTitle{
   font-size:40px;
   font-weight: 800;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(199, 168, 113, 1);
 
   &:hover{
     color: #bea741;
@@ -43,6 +45,7 @@
 .ProductDetailsName1{
 
   font-size: 30px;
+  color: rgba(199, 168, 113, 1);
   &:hover{
     color: #bea741;
   }
@@ -51,4 +54,7 @@
 }
 .ProductDetailsDetails, .ProductDetailsDescription{
   color: #bea741;
+}
+.s{
+    background: linear-gradient(90deg, #836B48 0%, #342814 100%);
 }

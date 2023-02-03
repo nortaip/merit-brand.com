@@ -20,8 +20,8 @@ function Products() {
     <div className={s.Products}>
       <div className={s.Productsnone}>
         <img src={headerimg} alt="aa" className="img-fluid mb-5" />
-      </div><Container>
-      
+      </div>
+      <Container>
         <Row>
           <div className={s.Products__filter}>
             <button onClick={() => setProducts(data)}>All</button>

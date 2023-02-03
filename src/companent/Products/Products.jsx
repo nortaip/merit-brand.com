@@ -21,16 +21,16 @@ function Products() {
       <div className={s.Productsnone}>
         <img src={headerimg} alt="aa" className="img-fluid mb-5" />
       </div>
-      <Row>
-        <div className={s.Products__filter}>
-          <button onClick={() => setProducts(data)}>All</button>
-          <button onClick={() => filterProducts("Vodka")}>Vodka</button>
-          <button onClick={() => filterProducts("Wine")}>Wine</button>
-          <button onClick={() => filterProducts("Сognac")}>Сognac</button>
-          <button onClick={() => filterProducts("Rum")}>Rum</button>
-        </div>
-      </Row>
       <Container>
+        <Row>
+          <div className={s.Products__filter}>
+            <button onClick={() => setProducts(data)}>All</button>
+            <button onClick={() => filterProducts("Vodka")}>Vodka</button>
+            <button onClick={() => filterProducts("Wine")}>Wine</button>
+            <button onClick={() => filterProducts("Сognac")}>Сognac</button>
+            <button onClick={() => filterProducts("Rum")}>Rum</button>
+          </div>
+        </Row>
         <Row>
           {products.map((product, index) => {
             return (
@@ -48,9 +48,9 @@ function Products() {
                 text1={product.text1}
                 text2={product.text2}
                 text3={product.text3}
-          
-                // details={details.description}
-             
+
+              // details={details.description}
+
               />
             );
           })}

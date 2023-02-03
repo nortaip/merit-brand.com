@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img from "./../../../img/slider1.png";
 import img2 from "./../../../img/banner2.jpg";
+import img3 from "./../../../img/rr.png";
 import { Carousel } from "react-bootstrap";
 
 function Main() {
@@ -29,7 +30,7 @@ function Main() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={img2}
+          src={img3}
           alt="Second slide"
         />
 
@@ -41,7 +42,7 @@ function Main() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={img}
+          src={img2}
           alt="Third slide"
         />
 

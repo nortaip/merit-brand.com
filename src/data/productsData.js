@@ -43,7 +43,7 @@ import img43 from "../img/img/43.jpeg";
 import img44 from "../img/img/44.jpeg";
 import img45 from "../img/img/45.jpg";
 import img46 from "../img/img/46.jpg";
-import img47 from "../img/img/47.jpg";
+// import img47 from "../img/img/47.jpg";
 import img48 from "../img/img/48.jpg";
 
 const products = [
@@ -65,6 +65,10 @@ const products = [
     brand: "Merit-Brand",
     name: "Cici",
     name1: "Red Dry Wine",
+    text: "Вино изготовлено из виногда , вырашенных в регионе Шабран в Азербайджане. На восточных склонах гор Большого Кавказа.  ",
+    text1: "Вино насышенно красного цвета, с нежным ароматом свежих фруктов и польным вкусом с приятной сладостью. ",
+    text2: "Замичательно сочитаеться с десертами, фруктовой выпечкой и идеально дополняет блюдо востойной кухни. ",
+    text3:"Температура подачи 16-18 градусов."
   },
 
   {

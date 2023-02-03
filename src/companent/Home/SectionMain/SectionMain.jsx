@@ -11,9 +11,7 @@ import { useTranslation } from "react-i18next";
 function SectionMain() {
 
   const { t } = useTranslation();
-  // const changeLanguage = (language) => {
-  //   i18n.changeLanguage(language);
-  // };
+
 
 
   return (

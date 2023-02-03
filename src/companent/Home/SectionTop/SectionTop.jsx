@@ -38,7 +38,7 @@ function SectionTop() {
 
        
               
-              <p>
+              <p className={s.sectionMain__text}>
       {t(`mirvari1`)}
               </p>
 
@@ -50,8 +50,8 @@ function SectionTop() {
           <Col md="4">
             <div className={s.SectionTopRight}>
             <p className={s.brandtext}>Merit-Brand</p>
-              <h1 className="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">{t(`aylingold`)}</h1>
-              <p>
+              <h1 >{t(`aylingold`)}</h1>
+              <p className={s.sectionMain__text}>
               {t(`aylingold1`)}
               </p>
             </div>

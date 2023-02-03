@@ -11,7 +11,7 @@
   width: 100%;
   top: 0;
   .active {
-    color: gold;
+ color: rgba(138, 101, 48, 1);
     text-decoration: none;
   }
 
@@ -35,6 +35,8 @@
   li {
     color: white;
     list-style: none;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
 
     &:hover {
       color: #bea741;

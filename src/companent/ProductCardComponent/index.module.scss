@@ -24,22 +24,26 @@
 
 }
 .ProductCardPrice{
-  color: #bea741;
+color: 
+rgba(138, 101, 48, 1);
   font-size: 12px;
 }
 .ProductCardTitle{
-  font-size: 25px;
-  font-weight: 800;
-  color: red;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+color: rgba(199, 168, 113, 1);
+font-size: 30px;
   &:hover{
     color: white;
   }
 }
 .ProductCardName1{
-  font-size: 20px;
-  font-weight: 00;
-  color: red;
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+color: rgba(199, 168, 113, 1);
+font-size: 25px;
   &:hover{
     color: white;
   }

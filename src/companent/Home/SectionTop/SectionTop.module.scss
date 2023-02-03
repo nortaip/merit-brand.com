@@ -13,8 +13,17 @@
   }
 }
 .brandtext {
-  color: #bea741;
+color: 
+rgba(138, 101, 48, 1);
 }
 h1 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+color: rgba(199, 168, 113, 1);
+
+}
+.sectionMain__text{
+  background: linear-gradient(90deg, #836B48 0%, #342814 100%);
 }
